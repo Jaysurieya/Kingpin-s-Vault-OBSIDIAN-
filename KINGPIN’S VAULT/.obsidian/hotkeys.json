@@ -1,0 +1,10 @@
+{
+  "templater-obsidian:Templater/Callouts.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "C"
+    }
+  ]
+}

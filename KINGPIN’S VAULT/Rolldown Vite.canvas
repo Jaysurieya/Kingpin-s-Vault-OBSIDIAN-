@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"2bdfe2f06522734f","type":"text","text":"<center>\nVite\n</center>","x":-720,"y":1280,"width":250,"height":50,"color":"#00ff1e"},
+		{"id":"685f2777e61716dd","type":"text","text":"Older Vite:\n- bundlers --> rollup + esbuild\n- fast","x":-920,"y":1420,"width":250,"height":160,"color":"2"},
+		{"id":"ba4c2c9da9816c63","type":"text","text":"RollDown Vite:\n- bundlers --> rolldown (uses rust)\n- extremely fast","x":-500,"y":1420,"width":250,"height":160,"color":"2"},
+		{"id":"d27957f61765e0d8","type":"text","text":"Bundlers:\n1] Rollup\n2]esbuild","x":-300,"y":1250,"width":250,"height":110,"color":"6"},
+		{"id":"35400a9df59110ed","type":"text","text":"## What is Rollup? (combining files effciently)\n\n**Rollup** is a JavaScript **bundler** that compiles small pieces of code (your modules (jsx files) ) into a final, highly optimized package for distribution.\n\n- **Written in:** JavaScript\n    \n- **Primary Purpose:** Creating highly efficient **production bundles**, especially for libraries and frameworks.\n    \n\n### The Key Feature: ==**Tree-Shaking**==\n\nRollup is famous for pioneering a technique called **Tree-Shaking**.\n\nThink of your code as a tree with many branches. If you write 10 functions but only use 3 of them in your final app, Rollup's tree-shaking will look at all the code you import and **automatically trim away the 7 unused functions** before creating the final file.\n\n- **Result:** You get the smallest, fastest possible code package, which is crucial for loading performance in the browser.","x":120,"y":690,"width":644,"height":560,"color":"5"},
+		{"id":"74ec3779f782700d","type":"text","text":"## What is esbuild? (combining files with speed)\n\n**esbuild** is a modern JavaScript **bundler** that performs the same task as Rollup, but with a different priority: **raw speed**.\n\n- **Written in:** Go (a compiled language)\n    \n- **Primary Purpose:** Blazing fast **performance** for development and general-purpose bundling.\n\n### The Key Feature: Speed\n\nBecause esbuild is written in Go, it can perform bundling operations at incredible speeds.\n\n- **Result in Vite:** In a Vite setup, esbuild is used during **development**. When you save a file, esbuild is so fast that it can quickly process and transform your code, allowing your browser to update almost instantly (Hot Module Replacement or HMR) without you even noticing the build process.","x":120,"y":1360,"width":644,"height":560,"color":"5"},
+		{"id":"70d57011ac71d96c","x":-801,"y":948,"width":250,"height":132,"type":"text","text":"the relationship between jwt and mongo db user id is the jwt contains mongo userid       "}
+	],
+	"edges":[
+		{"id":"9e5c3c9b01a4834d","fromNode":"2bdfe2f06522734f","fromSide":"bottom","toNode":"685f2777e61716dd","toSide":"top"},
+		{"id":"1f72f759aa45da4f","fromNode":"2bdfe2f06522734f","fromSide":"bottom","toNode":"ba4c2c9da9816c63","toSide":"top"},
+		{"id":"1f93422b038401ba","fromNode":"2bdfe2f06522734f","fromSide":"right","toNode":"d27957f61765e0d8","toSide":"left"},
+		{"id":"743dff82e6ced0a0","fromNode":"d27957f61765e0d8","fromSide":"top","toNode":"35400a9df59110ed","toSide":"left"},
+		{"id":"70727cdccadd2c38","fromNode":"d27957f61765e0d8","fromSide":"bottom","toNode":"74ec3779f782700d","toSide":"left"}
+	]
+}

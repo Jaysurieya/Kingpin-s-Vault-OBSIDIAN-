@@ -1,0 +1,38 @@
+{
+	"nodes":[
+		{"id":"79ddedf8b1f74de1","type":"text","text":"**Project Structure** ","x":-20,"y":-120,"width":260,"height":50,"color":"6"},
+		{"id":"3188cad3116dac1e","type":"text","text":"- [x] Landing Page","x":-20,"y":-40,"width":260,"height":50,"color":"6"},
+		{"id":"f09fcf41bce68455","type":"text","text":"- [ ] Login","x":-220,"y":130,"width":260,"height":50,"color":"4"},
+		{"id":"9558238bbbd0b481","type":"text","text":"- [ ] DashBoard","x":-20,"y":240,"width":260,"height":50,"color":"3"},
+		{"id":"079035333c4c21cd","type":"text","text":"- [ ]     Sign Up","x":180,"y":130,"width":260,"height":50,"color":"4"},
+		{"id":"6a88a7ec8a85069f","type":"text","text":"- [ ] Profile","x":360,"y":240,"width":260,"height":50,"color":"2"},
+		{"id":"ebd230ff32feb189","type":"text","text":"- [ ] Chat With Friends","x":310,"y":380,"width":250,"height":60,"color":"2"},
+		{"id":"b21535b9b7d20c1f","type":"text","text":"- [ ] Quiz Generator","x":-220,"y":555,"width":260,"height":50,"color":"2"},
+		{"id":"e30d7cbb32071acd","type":"text","text":"- [ ] Statistics","x":-350,"y":380,"width":260,"height":50,"color":"2"},
+		{"id":"664065a06363df02","type":"text","text":"- [ ] Additional Materials","x":-420,"y":240,"width":260,"height":50,"color":"2"},
+		{"id":"351e5f6d99245a66","type":"text","text":"- [ ] Chat with Ai","x":175,"y":720,"width":260,"height":50,"color":"5"},
+		{"id":"23f681261822b6af","type":"text","text":"- [x] Better background\n- [x] Attractive Effects","x":360,"y":-95,"width":250,"height":80},
+		{"id":"e030b6cb4531c60d","type":"text","text":"- [ ] Firebase\n- [ ] MongoDB","x":520,"y":60,"width":250,"height":70},
+		{"id":"9e0c3933c23528a3","type":"text","text":"Components:\nDotted Background -- 21st.dev\nSignup and login -- 21st.dev\nDashboard - own \n","x":860,"y":-120,"width":452,"height":439,"color":"6"},
+		{"id":"15576a3d5b067c50","type":"text","text":"- [ ] Files Upload","x":185,"y":555,"width":250,"height":50,"color":"2"},
+		{"id":"e1acb524fec4ab30","type":"text","text":"Calendar with daily goal setting and completion","x":-780,"y":230,"width":250,"height":70,"color":"2"}
+	],
+	"edges":[
+		{"id":"51e077ab6834260f","fromNode":"79ddedf8b1f74de1","fromSide":"bottom","toNode":"3188cad3116dac1e","toSide":"top"},
+		{"id":"2a6e47cadff812d8","fromNode":"3188cad3116dac1e","fromSide":"bottom","toNode":"f09fcf41bce68455","toSide":"top"},
+		{"id":"f99bd1b0812dfdaa","fromNode":"f09fcf41bce68455","fromSide":"bottom","toNode":"9558238bbbd0b481","toSide":"top"},
+		{"id":"c2c28163058eb855","fromNode":"9558238bbbd0b481","fromSide":"right","toNode":"6a88a7ec8a85069f","toSide":"left"},
+		{"id":"1ace0bc7f8a54384","fromNode":"9558238bbbd0b481","fromSide":"bottom","toNode":"ebd230ff32feb189","toSide":"top"},
+		{"id":"74a14aa8feb71b8c","fromNode":"9558238bbbd0b481","fromSide":"bottom","toNode":"15576a3d5b067c50","toSide":"top"},
+		{"id":"93140556a1de1ca3","fromNode":"9558238bbbd0b481","fromSide":"bottom","toNode":"b21535b9b7d20c1f","toSide":"top"},
+		{"id":"daea8bb205f00955","fromNode":"9558238bbbd0b481","fromSide":"bottom","toNode":"e30d7cbb32071acd","toSide":"top"},
+		{"id":"d2ec7309bbd5db10","fromNode":"9558238bbbd0b481","fromSide":"left","toNode":"664065a06363df02","toSide":"right"},
+		{"id":"e8106624cf5e8fd7","fromNode":"15576a3d5b067c50","fromSide":"bottom","toNode":"351e5f6d99245a66","toSide":"top"},
+		{"id":"4eaa841396c95bd0","fromNode":"3188cad3116dac1e","fromSide":"bottom","toNode":"079035333c4c21cd","toSide":"top"},
+		{"id":"4bb56b585ef1487c","fromNode":"079035333c4c21cd","fromSide":"bottom","toNode":"9558238bbbd0b481","toSide":"top"},
+		{"id":"a7333113ffb86a0c","fromNode":"3188cad3116dac1e","fromSide":"right","toNode":"23f681261822b6af","toSide":"left"},
+		{"id":"73e7cb8b681e9729","fromNode":"f09fcf41bce68455","fromSide":"right","toNode":"079035333c4c21cd","toSide":"left"},
+		{"id":"4f28e80f7549dbd3","fromNode":"079035333c4c21cd","fromSide":"right","toNode":"e030b6cb4531c60d","toSide":"left"},
+		{"id":"e26802a8a5487c88","fromNode":"664065a06363df02","fromSide":"left","toNode":"e1acb524fec4ab30","toSide":"right"}
+	]
+}
