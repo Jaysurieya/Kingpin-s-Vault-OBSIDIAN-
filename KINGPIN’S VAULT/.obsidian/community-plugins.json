@@ -9,5 +9,6 @@
   "mousewheel-image-zoom",
   "obsidian-admonition",
   "templater-obsidian",
-  "obsidian-mkdocs-publisher"
+  "obsidian-mkdocs-publisher",
+  "custom-font-loader"
 ]

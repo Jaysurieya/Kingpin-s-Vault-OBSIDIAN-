@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leet Code/Problems - approach - Leetcode 150.md",
+                "file": "PET.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Problems - approach - Leetcode 150"
-            }
-          },
-          {
-            "id": "9d1ddc00b4f82a1a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ILOVEPDF-clone/ILOVEPDF-CLONE.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ILOVEPDF-CLONE"
+              "title": "PET"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -145,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM - 5/IVA/IVA-CAT-III.md",
+                "file": "PET.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +140,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for IVA-CAT-III"
+              "title": "Backlinks for PET"
             }
           },
           {
@@ -164,11 +149,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "PET.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from PET"
             }
           },
           {
@@ -192,12 +178,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "PET.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of PET"
             }
           },
           {
@@ -245,18 +232,27 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
+      "audio-recorder:Start/stop recording": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "pomodoro-timer:Toggle timer panel": false,
-      "audio-recorder:Start/stop recording": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9d1ddc00b4f82a1a",
+  "active": "54dc1a03d608d16a",
   "lastOpenFiles": [
+    "My Tasks.md",
+    "Leet Code/Problems - approach - Leetcode 150.md",
+    "Leet Code/Problem Tracker.md",
+    "SEM-6/cat-1/Transfer Learning.md",
+    "SEM-6/cat-1/DMBI.md",
+    "PST/Mensuration.md",
     "Untitled.md",
+    "Untitled 1.md",
+    "DSA/Graph.md",
+    "PET.md",
+    "Excalidraw/Drawing 2026-01-30 09.14.26.excalidraw.md",
     "ILOVEPDF-clone/ILOVEPDF-CLONE.md",
     "Mr cooper.md",
-    "Leet Code/Problems - approach - Leetcode 150.md",
     "PS.md",
     "prompt.md",
     "Agentic Ai.md",
@@ -280,14 +276,11 @@
     "III AIDS AIML cat1 timetable 1.pdf",
     "Mentoroid.md",
     "Mentoroid Work Flow.canvas",
-    "My Tasks.md",
     "Rolldown Vite.canvas",
     "Transfer Learning Syllabus.pdf",
     "Unit-I chapter 4 (1).pptx.pdf",
     "Unit-I Chapter 5 (1).pptx.pdf",
     "Untitled.canvas",
-    "PET.md",
-    "RAG/RAG - Retrieval-Augmented Generation.md",
     "Pasted image 20251230140105.png",
     "Pasted image 20251230141248.png",
     "Pasted image 20260105003734.png",
@@ -295,12 +288,6 @@
     "Pasted image 20260106145628.png",
     "Pasted image 20260106153743.png",
     "Pasted image 20260106153804.png",
-    "Pasted image 20260106154306.png",
-    "SEM-6/cat-1/IOT.md",
-    "SEM-6/cat-1/Transfer Learning.md",
-    "SEM-6/cat-1/DMBI.md",
-    "SEM-6/cat-1/TT.md",
-    "RAG/Ingestion Pipeline.md",
-    "SEM-6/Untitled.md"
+    "Pasted image 20260106154306.png"
   ]
 }
