@@ -77,7 +77,6 @@ class Solution {
 > ```
 
 
-
 ==i >= 0== is checked becoz :--
 nums1 = [3,4,5,0,0,0],  m = 3 
 nums2 = [1,2,6],       n = 3
@@ -146,26 +145,25 @@ class Solution {
 
 80: [Remove duplicates from sorted array 2]
 
-> [!note]+ Own
+> [!note]+ Own:
 > ```
 > int removeDuplicates(int* nums, int n) {
->     int count = 0;
->     int x = 0;
->     for(int i=0;i<(n-1);i++){
+>     int count =1,x=0,i;
+>     for(i=0;i<(n-1);i++){
 >         if(nums[i]==nums[i+1]) count++;
 >         else{
->             if(count >= 1){
->                 nums[x++] = nums[i];
->             }
+>             if(count>=2) nums[x++] = nums[i];
 >             nums[x++] = nums[i];
->             count = 0;
+>             count = 1;
 >         }
 >     }
->     if(count>=1) nums[x++] = nums[n-1];
->     nums[x] = nums[n-1];
->     return (x+1);
+>     if(count>=2) nums[x++] = nums[i];
+>     nums[x++] = nums[i];
+>     return x; 
 > }
 > ```
+
+
 
 169 - majority element:
 
@@ -191,11 +189,10 @@ class Solution {
 189: Rotate Array:
 
 > [!failure]+ warning:
-> 1st copy the array and then do the operation 
+> 1st copy the array and then do the operation for getting the best optimal answer
 
 > [!example]+ Optimal Approach
 > ```
-> #include <string.h>
 > void rotate(int* nums, int n, int k) {
 >     int res[n];
 >     memcpy(res,nums,n*sizeof(int));
@@ -220,7 +217,7 @@ class Solution {
 > }
 > ```
 
-122: Best Time to buy and sell stocks
+122: Best Time to buy and sell stocks 
 
 > [!example]+ Optimal:
 > ```

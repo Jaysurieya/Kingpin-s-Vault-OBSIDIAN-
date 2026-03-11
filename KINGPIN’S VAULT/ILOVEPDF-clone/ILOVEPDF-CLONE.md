@@ -876,3 +876,9 @@ pdf - to - word --- correct it fully
 ==crop pdf --- multiple page crop==
 ==EDIT pdf --- fully problem==
 scan to pdf - desktop view and closing page in the mobile
+
+
+after deployment:
+preview not available in edit pdf
+OCR not working
+compress frontend error

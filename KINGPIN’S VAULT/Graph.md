@@ -1,1 +1,0 @@
-Print adjacency list - gfg

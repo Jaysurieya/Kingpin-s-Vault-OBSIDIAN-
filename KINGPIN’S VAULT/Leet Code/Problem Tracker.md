@@ -1,17 +1,16 @@
 # LeetCode 150 — PRO DSA Concept Order (Obsidian Checklist)
 
 ---
-# LeetCode 150 — PRO DSA Concept Order (Obsidian Checklist)
 
 - [ ] **Phase 0 — Array Basics (Implementation & Confidence)**
 	- [ ] 88. Merge Sorted Array
-	- [ ] 27. Remove Element
-	- [ ] 26. Remove Duplicates from Sorted Array
-	- [ ] 80. Remove Duplicates from Sorted Array II
-	- [ ] 189. Rotate Array
-	- [ ] 169. Majority Element
-	- [ ] 121. Best Time to Buy and Sell Stock
-	- [ ] 122. Best Time to Buy and Sell Stock II
+	- [x] 27. Remove Element ✅ 2026-02-20
+	- [x] 26. Remove Duplicates from Sorted Array ✅ 2026-02-20
+	- [x] 80. Remove Duplicates from Sorted Array II ✅ 2026-02-21
+	- [x] 189. Rotate Array ✅ 2026-02-21s
+	- [x] 169. Majority Element [voting Algorithm] ✅ 2026-02-21
+	- [x] 121. Best Time to Buy and Sell Stock ✅ 2026-02-21
+	- [x] 122. Best Time to Buy and Sell Stock II ✅ 2026-02-21
 	- [ ] 274. H-Index
 	- [ ] 238. Product of Array Except Self
 	- [ ] 134. Gas Station
@@ -151,7 +150,7 @@
 	- [ ] 502. IPO
 
 - [ ] **Phase 15 — Greedy**
-	- [ ] 55. Jump Game
+	- [x] 55. Jump Game ✅ 2026-02-21
 	- [ ] 45. Jump Game II
 	- [ ] 452. Minimum Number of Arrows to Burst Balloons
 

@@ -8,20 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "54dc1a03d608d16a",
+            "id": "307639c2c585176a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PET.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PET"
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "6621adee68d05967",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "INTERVIEW/soliton.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "soliton"
+            }
+          },
+          {
+            "id": "4239711d7a598437",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "INTERVIEW/DBMS/DBMS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DBMS"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,6 +136,7 @@
       {
         "id": "3ba85d7beecfeb76",
         "type": "tabs",
+        "dimension": 47.76264591439688,
         "children": [
           {
             "id": "2daf5695f9145c60",
@@ -130,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PET.md",
+                "file": "SEM-6/cat-2/TL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +170,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for PET"
+              "title": "Backlinks for TL"
             }
           },
           {
@@ -149,12 +179,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PET.md",
+                "file": "Leet Code/Problem Tracker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from PET"
+              "title": "Outgoing links from Problem Tracker"
             }
           },
           {
@@ -178,13 +208,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PET.md",
+                "file": "SEM-6/cat-2/TL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PET"
+              "title": "Outline of TL"
             }
           },
           {
@@ -200,12 +230,24 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "cae689b3191d3ab9",
+            "type": "leaf",
+            "state": {
+              "type": "timer-view",
+              "state": {},
+              "icon": "timer",
+              "title": "Timer"
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       },
       {
         "id": "fd17f09ba2560f8d",
         "type": "tabs",
+        "dimension": 52.23735408560312,
         "children": [
           {
             "id": "dff7671a92c5c937",
@@ -221,7 +263,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276
+    "width": 322
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,56 +280,56 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "54dc1a03d608d16a",
+  "active": "6621adee68d05967",
   "lastOpenFiles": [
-    "My Tasks.md",
-    "Leet Code/Problems - approach - Leetcode 150.md",
+    "Leet Code/DSA Problem Tracker.md",
+    "INTERVIEW/soliton.md",
+    "INTERVIEW/DBMS/DBMS.md",
+    "Pasted image 20260310050518.png",
     "Leet Code/Problem Tracker.md",
-    "SEM-6/cat-1/Transfer Learning.md",
-    "SEM-6/cat-1/DMBI.md",
-    "PST/Mensuration.md",
-    "Untitled.md",
-    "Untitled 1.md",
-    "DSA/Graph.md",
-    "PET.md",
-    "Excalidraw/Drawing 2026-01-30 09.14.26.excalidraw.md",
-    "ILOVEPDF-clone/ILOVEPDF-CLONE.md",
-    "Mr cooper.md",
-    "PS.md",
-    "prompt.md",
+    "Leet Code/Two Pointers.md",
+    "INTERVIEW/DBMS",
+    "Untitled",
+    "Excalidraw/LEET CODE.md",
+    "INTERVIEW/Node.js.md",
+    "Leet Code/DSA Problem notes.md",
+    "RAG/Ingestion Pipeline.md",
+    "Excalidraw/Drawing 2026-02-28 21.08.08.excalidraw.md",
+    "RAG/RAG - Retrieval-Augmented Generation.md",
+    "mentoroid/mentoroid.md",
+    "mentoroid-315b1-firebase-adminsdk-fbsvc-2a4082a007.json",
+    "Leet Code/Drawing 2026-03-01 11.39.05.excalidraw.md",
     "Agentic Ai.md",
-    "WhatsApp Image 2026-01-07 at 7.49.23 PM.jpeg",
-    "SOLLITON/Solliton Core concepts.md",
-    "Pasted image 20260114203210.png",
-    "solli.md",
-    "Untitled.base",
-    "Excalidraw/Drawing 2026-01-14 13.40.09.excalidraw.md",
-    "Recording 20260114133942.m4a",
-    "Recording 20260114133927.m4a",
-    "Templater/Callouts.md",
-    "Templater",
     "BYTS hackathon.md",
     "description.md",
+    "Chat gpt.md",
     "Fitmate.md",
-    "Graph.md",
     "Hackathon Links.md",
+    "Graph.md",
     "HANDS ON TRANSFER LEARNING WITH OYTHON-TEXT BOOK.pdf",
     "III AIDS AIML cat1 timetable.pdf",
     "III AIDS AIML cat1 timetable 1.pdf",
+    "MEDI LINK.md",
     "Mentoroid.md",
     "Mentoroid Work Flow.canvas",
+    "Mr cooper.md",
+    "My Tasks.md",
+    "node.md",
+    "Pasted image 20251208210331.png",
+    "Pasted image 20251208200958.png",
+    "Pasted image 20260222221144.png",
+    "Pasted image 20260222230235.png",
+    "Pasted image 20260224195701.png",
+    "PET.md",
+    "Recording 20260114133927.m4a",
+    "Recording 20260114133942.m4a",
     "Rolldown Vite.canvas",
+    "Syllabus.png",
     "Transfer Learning Syllabus.pdf",
     "Unit-I chapter 4 (1).pptx.pdf",
-    "Unit-I Chapter 5 (1).pptx.pdf",
     "Untitled.canvas",
-    "Pasted image 20251230140105.png",
-    "Pasted image 20251230141248.png",
-    "Pasted image 20260105003734.png",
-    "Pasted image 20260106145411.png",
-    "Pasted image 20260106145628.png",
-    "Pasted image 20260106153743.png",
-    "Pasted image 20260106153804.png",
-    "Pasted image 20260106154306.png"
+    "WhatsApp Image 2026-01-07 at 7.49.23 PM.jpeg",
+    "Pasted image 20260228205615.png",
+    "Pasted image 20260222212916.png"
   ]
 }

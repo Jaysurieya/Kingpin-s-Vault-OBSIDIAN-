@@ -37,7 +37,7 @@ free => free(a);
 ---
 ## Trees:
 
-> [!example]+ Binary Tree Construction (C programming) : [with traversals] 
+> [!example]+ Binary Tree Construction (C programming) : [with traversals]
 > ```
 > #include <stdio.h>
 > #include <stdlib.h>
@@ -89,6 +89,13 @@ free => free(a);
 >     printf("%d ",root->data);
 > }
 > 
+> struct Node* search(struct Node* root, int key){
+>     if(root==NULL) return NULL;
+>     if(root->data==key) return root;
+>     if(key<root->data) return search(root->left,key);
+>     else return search(root->right,key);
+> }
+> 
 > 
 > void main(){
 >     int n,val;
@@ -111,6 +118,11 @@ free => free(a);
 >     printf("postorder:");
 >     postorder(root);
 >     printf("\n");
+>     
+>     printf("Address of 5 : ");
+>     struct Node* res = search(root,5);
+>     if(res != NULL)printf("%p : %d\n", (void*)res, res->data);
+>     else printf("Not found\n");   
 > }
 > ```
 
@@ -272,4 +284,16 @@ free => free(a);
 > 
 > ```
 
+
+> [!todo]+ PET:
+> 
+> 1. Push and pop operations
+> 2. Min,Max,Sum,Avg in an array ( array size not fixed)
+> 3. Print odd and even position numbers ( array size not fixed)
+> 4. Insertion, deletions, search in a linked list
+> 
+> 10marks
+>  
+> 1. Construct Binary search tree and perform binary search 
+> 2. Same question
 
