@@ -1,3 +1,23 @@
+the settings that has been changed in antigravity:
+
+```
+{
+
+"python.defaultInterpreterPath": "/home/kratos/Projects/MENTOROID/backend/python/venv/bin/python",
+
+"python.analysis.extraPaths": [
+
+"/home/kratos/Projects/MENTOROID/backend/python/venv/lib/python3.14/site-packages"
+
+]
+
+}
+```
+
+
+![[Pasted image 20260404231938.png]]
+
+
 firebase-id : mentoroid-315b1
 backend : npm install firebase-admin
 frontend : npm install firebase

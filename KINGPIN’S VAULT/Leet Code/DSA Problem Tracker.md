@@ -412,9 +412,9 @@ Dynamic Programming (DP)
 -  Stack
     
     -  Pattern 60: Stack – Valid Parentheses Matching  
-        - [ ] 20. Valid Parentheses  
-        - [ ] 32. Longest Valid Parentheses  
-        - [ ] 921. Minimum Add to Make Parentheses Valid  
+        - [x] 20. Valid Parentheses ✅ 2026-03-13
+        - [x] 32. Longest Valid Parentheses ✅ 2026-03-13
+        - [x] 921. Minimum Add to Make Parentheses Valid ✅ 2026-03-13 
         - [ ] 1249. Minimum Remove to Make Valid Parentheses  
         - [ ] 1963. Minimum Number of Swaps to Make the String Balanced
         
@@ -452,9 +452,9 @@ Dynamic Programming (DP)
 -  Bit Manipulation
     
     -  Pattern 66: Bitwise XOR – Finding Single / Missing Number  
-        - [ ] 136. Single Number  
-        - [ ] 137. Single Number II  
-        - [ ] 268. Missing Number  
+        - [x] 136. Single Number ✅ 2026-03-14
+        - [x] 137. Single Number II ✅ 2026-03-14
+        - [x] 268. Missing Number  [retry] ✅ 2026-03-14
         - [ ] 389. Find the Difference
         
     -  Pattern 67: Bitwise AND – Counting Set Bits (Hamming Weight)  
@@ -534,6 +534,9 @@ Dynamic Programming (DP)
 ---
 String Manipulation
 
+
+- [x] [3304. Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/) ✅ 2026-03-13
+
 -  Pattern 84: String – Palindrome Check (Two Pointers / Reverse)  
     - [ ] 9. Palindrome Number  
     - [ ] 125. Valid Palindrome  
@@ -603,3 +606,6 @@ Design
     - [ ] 2034. Stock Price Fluctuation  
     - [ ] 2296. Design a Text Editor  
     - [ ] 2336. Smallest Number in Infinite Set
+
+Extra sums:
+- [x] [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) ✅ 2026-03-14

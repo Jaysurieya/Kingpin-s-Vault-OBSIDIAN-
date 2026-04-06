@@ -8,49 +8,34 @@
         "type": "tabs",
         "children": [
           {
-            "id": "307639c2c585176a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "6621adee68d05967",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "INTERVIEW/soliton.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "soliton"
-            }
-          },
-          {
             "id": "4239711d7a598437",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INTERVIEW/DBMS/DBMS.md",
+                "file": "mentoroid/mentoroid.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DBMS"
+              "title": "mentoroid"
+            }
+          },
+          {
+            "id": "b6629916a28cbc8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "INTERVIEW/rapid data.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "rapid data"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -280,56 +265,56 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6621adee68d05967",
+  "active": "4239711d7a598437",
   "lastOpenFiles": [
+    "Pasted image 20260404231938.png",
+    "Mentoroid.md",
+    "mentoroid/mentoroid.md",
+    "INTERVIEW/DBMS/Intro to dbms.md",
+    "INTERVIEW/rapid data.md",
+    "Untitled 1.md",
+    "RAG/Pipeline.excalidraw.md",
+    "SEM-6/cat-3/TL.md",
+    "INTERVIEW/Untitled.md",
+    "SEM-6/cat-3/IOT.md",
+    "Untitled.md",
+    "IOT.md",
+    "WhatsApp Image 2026-01-07 at 7.49.23 PM.jpeg",
+    "Untitled.canvas",
+    "INTERVIEW/JAVA roadmap.md",
+    "SEM-6/cat-3/DMBI.md",
+    "SEM-6/cat-1/DMBI.md",
+    "SEM-6/cat-1/TT.md",
+    "SEM-6/cat-1/Transfer Learning.md",
+    "SEM-6/cat-1/IOT.md",
+    "INTERVIEW/DBMS/QUERIES.md",
     "Leet Code/DSA Problem Tracker.md",
-    "INTERVIEW/soliton.md",
+    "Leet Code/DSA Problem notes.md",
+    "Mr_cooper.md",
     "INTERVIEW/DBMS/DBMS.md",
+    "INTERVIEW/OS.md",
+    "Pasted image 20260314134927.png",
+    "Pasted image 20260314134906.png",
+    "Pasted image 20260314134845.png",
+    "Pasted image 20260314134817.png",
+    "SEM-6/cat-2/TL.md",
+    "SEM-6/cat-3",
+    "INTERVIEW/soliton.md",
     "Pasted image 20260310050518.png",
-    "Leet Code/Problem Tracker.md",
-    "Leet Code/Two Pointers.md",
     "INTERVIEW/DBMS",
     "Untitled",
-    "Excalidraw/LEET CODE.md",
-    "INTERVIEW/Node.js.md",
-    "Leet Code/DSA Problem notes.md",
-    "RAG/Ingestion Pipeline.md",
-    "Excalidraw/Drawing 2026-02-28 21.08.08.excalidraw.md",
-    "RAG/RAG - Retrieval-Augmented Generation.md",
-    "mentoroid/mentoroid.md",
     "mentoroid-315b1-firebase-adminsdk-fbsvc-2a4082a007.json",
-    "Leet Code/Drawing 2026-03-01 11.39.05.excalidraw.md",
-    "Agentic Ai.md",
-    "BYTS hackathon.md",
-    "description.md",
-    "Chat gpt.md",
-    "Fitmate.md",
-    "Hackathon Links.md",
-    "Graph.md",
     "HANDS ON TRANSFER LEARNING WITH OYTHON-TEXT BOOK.pdf",
     "III AIDS AIML cat1 timetable.pdf",
     "III AIDS AIML cat1 timetable 1.pdf",
-    "MEDI LINK.md",
-    "Mentoroid.md",
     "Mentoroid Work Flow.canvas",
-    "Mr cooper.md",
-    "My Tasks.md",
-    "node.md",
     "Pasted image 20251208210331.png",
     "Pasted image 20251208200958.png",
     "Pasted image 20260222221144.png",
     "Pasted image 20260222230235.png",
-    "Pasted image 20260224195701.png",
-    "PET.md",
     "Recording 20260114133927.m4a",
     "Recording 20260114133942.m4a",
     "Rolldown Vite.canvas",
-    "Syllabus.png",
-    "Transfer Learning Syllabus.pdf",
-    "Unit-I chapter 4 (1).pptx.pdf",
-    "Untitled.canvas",
-    "WhatsApp Image 2026-01-07 at 7.49.23 PM.jpeg",
-    "Pasted image 20260228205615.png",
-    "Pasted image 20260222212916.png"
+    "Transfer Learning Syllabus.pdf"
   ]
 }

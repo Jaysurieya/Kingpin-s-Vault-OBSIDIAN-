@@ -1,0 +1,27 @@
+- Structured vs Unstructured data vs semi structured data
+- data in motion vs data in rest
+- role of ML in IoT data analytics
+- NoSQL database types
+- middleware
+- types of attacks in Iot networks
+- authentication vs authorization
+- blockchain in IoT
+- IoT security mechanisms\
+- IoT analytics type
+- NETCONF vs YANG
+- key security challenges faced in IoT networks
+- need for cross layer security
+- privacy & risk mitigation in IoT
+- fog vs edge
+
+- HDFS storage principles to organize and store a hospital's patient records efficiently.
+- types of NoSQL databases with eg
+- django python web application framework
+- AWS IoT components
+- NETCONF & YANG in system management. Improvement of network management over SNMP
+- use case for types of NoSQL databases
+- hadoop nodes & hadoop clusters
+- django framework
+- IoT security attacks, countermeasures with authentication & authorization
+- role of 5G & fog in IoT - smart city / smart grid
+
