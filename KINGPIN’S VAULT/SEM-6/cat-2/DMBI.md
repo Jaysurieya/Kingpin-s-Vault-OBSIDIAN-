@@ -1,7 +1,7 @@
 ![[Syllabus.png]]
 
 DIMENSIONAL MODELLING :
-
+	
 ![[Pasted image 20260222114009.png]]
 
 - highly iterative and dynamic process
@@ -308,4 +308,5 @@ UNIT-3:
 life-cycle:
 
 ![[Pasted image 20260222230235.png]]
+
 

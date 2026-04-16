@@ -100,8 +100,8 @@ Inductive Transfer:
 Unsupervised transfer:
 - similar to the inductive learning
 - Here also the source and target domains are same but the source and target tasks are different
-- but it uses unlabelled data [both domain and target dont have labels]
-- earning patterns from unlabelled data and used for a specific task after fine tunning 
+- but it uses unlabelled data [both source domain and target dont have labels]
+- learning patterns from unlabelled data and used for a specific unsupervised task after fine tunning
 
 Transductive Learning:
 - Here the source and target domains are different and the source and target tasks are same 
@@ -111,35 +111,63 @@ Transductive Learning:
 examples:
 
 1. **Inductive Transfer (Same domain, different tasks)**  
-Domain = same (e.g., product descriptions of crops)  
-Task = different (e.g., sentiment analysis → classification)  
-**Example:**
+- Domain: Chest X-ray images (same type of medical images)
+- Source Task: Detect pneumonia from chest X-rays
+- Target Task: Detect lung cancer from chest X-rays (same domain - chest X-rays, but different task)
 
-- **Source task:** Predict if crop review is _positive/negative_ (Sentiment Classification)
-- **Target task:** Predict crop review _star rating (1–5)_ (Rating Prediction)  
-    Same text domain, but task objective differs → inductive transfer.
+multitask learning :
+- Domain: Patient medical records
+- Tasks learned simultaneously:
+    - Task 1: Predict heart disease risk
+    - Task 2: Predict diabetes risk
+    - Task 3: Predict hypertension risk
 
-**↳ Multitask Learning (source has labels)**  
-**Example:** A model trains on reviews labeled with both _sentiment_ and _crop quality_, then helps a new task like _demand forecasting_ using shared learning.
+self-taught learning:
+- Domain: General images
+- Step 1 (Unlabeled): Learn general features from millions of unlabeled images - edges, textures, shapes, colors
+- Step 2 (Labeled): Use these learned features to specifically recognize cats with only 100 labeled cat images
 
-**↳ Self-Taught Learning (source has no labels)**  
-**Example:** Source has **unlabeled YouTube farming transcripts**, target is **crop disease classification**.  
-Model learns language patterns first (no labels), then uses that knowledge to classify diseases later.
+```
 
-2. **Unsupervised Transfer (Similar domains, different tasks, no labels in both)**  
-**Example:**
+Self-Taught Learning (Inductive Transfer)
 
-- **Source domain:** Unlabeled agriculture forum posts (farmers discussing crops, weather, soil, etc.)  
-    **Source task:** _Topic clustering_ (group posts into themes like irrigation, fertilizer, pests)
-    
-- **Target domain:** Unlabeled marketplace chat messages between farmers and buyers  
-    **Target task:** _Anomaly detection_ (detect unusual/scam messages)
+- Source Domain: Has unlabeled data
+- Target Domain: Has labeled data (for the specific task)
+- Process: Learn general patterns from unlabeled source data → Apply to labeled target task
+- Goal: Improve performance on a supervised task using unlabeled data
+
+ Unsupervised Transfer Learning
+
+- Source Domain: Has unlabeled data
+- Target Domain: Has unlabeled data (for unsupervised tasks)
+- Process: Learn patterns from unlabeled source data → Apply to unlabeled target tasks
+- Goal: Improve performance on unsupervised tasks like clustering or dimensionality reduction
+
+ Concrete Examples to Show the Difference:
+
+ Example 1: Image Processing
+
+Self-Taught Learning:
+
+- Unlabeled: 1M random images (learn general features)
+- Labeled: 100 cat images with labels ("cat"/"not cat")
+- Task: Supervised cat classification
+
+Unsupervised Transfer Learning:
+
+- Unlabeled: 1M random images (learn general features)
+- Unlabeled: 10K medical images (no labels)
+- Task: Unsupervised clustering of medical images by disease type
+
+```
+
+
 
 3. **Transductive Transfer (Similar tasks, different domains, only source labeled)**  
 **Example:**
 model used for email spam and ham is used for sms spam and ham
 
-### Approaches ...
+### Approaches ... ---> ollama
 
 1] instance transfer
 2] feature-representation transfer
@@ -153,7 +181,7 @@ What is TL - diff b/w ml and dl and the usage of tl
 
 ### TL - Feature Extraction:
 
-![[Pasted image 20260106193222.png]]
+![[Pasted image 20260106193222.png|575]]
 
 - DL models have **many layers**.
 - Each layer learns **different features** (edges → shapes → objects, etc.)

@@ -1,0 +1,4 @@
+- [x] ETL - 34 subsystems ✅ 2026-04-14
+- [ ] lesson 5 archs and qn paper
+- [ ] advanced dimension and fact table 
+- [ ] 2 archs challenges

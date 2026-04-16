@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mentoroid/mentoroid.md",
+                "file": "SEM-6/cat-2/DMBI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mentoroid"
-            }
-          },
-          {
-            "id": "b6629916a28cbc8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "INTERVIEW/rapid data.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "rapid data"
+              "title": "DMBI"
             }
           }
         ]
@@ -145,7 +131,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM-6/cat-2/TL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +140,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for TL"
+              "title": "Backlinks"
             }
           },
           {
@@ -164,12 +149,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Leet Code/Problem Tracker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Problem Tracker"
+              "title": "Outgoing links"
             }
           },
           {
@@ -193,13 +177,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-6/cat-2/TL.md",
-                "followCursor": false,
+                "file": "SEM-6/cat-2/DMBI.md",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TL"
+              "title": "Outline of DMBI"
             }
           },
           {
@@ -222,12 +206,12 @@
             "state": {
               "type": "timer-view",
               "state": {},
-              "icon": "timer",
-              "title": "Timer"
+              "icon": "lucide-ghost",
+              "title": "timer-view"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       },
       {
         "id": "fd17f09ba2560f8d",
@@ -267,54 +251,53 @@
   },
   "active": "4239711d7a598437",
   "lastOpenFiles": [
-    "Pasted image 20260404231938.png",
-    "Mentoroid.md",
-    "mentoroid/mentoroid.md",
-    "INTERVIEW/DBMS/Intro to dbms.md",
+    "SEM-6/DMBI-SEM/lesson-3.md",
+    "SEM-6/DMBI-SEM/lesson-1.md",
+    "SEM-6/DMBI-SEM/lesson-4.md",
+    "SEM-6/DMBI-SEM/lesson-5.md",
+    "SEM-6/DMBI-SEM/lesson-2.md",
+    "Pasted image 20260414234937.png",
+    "Pasted image 20260414232243.png",
+    "Pasted image 20260414231352.png",
+    "Pasted image 20260414213126.png",
+    "SEM-6/cat-2/DMBI.md",
+    "Pasted image 20260414201446.png",
+    "Pasted image 20260414201442.png",
+    "Pasted image 20260414181547.png",
+    "SEM-6/DMBI-SEM/Questions.md",
+    "SEM-6/cat-3/DMBI.md",
+    "Pasted image 20260413235558.png",
+    "Pasted image 20260413234939.png",
+    "Pasted image 20260413234837.png",
+    "SEM-6/cat-2/TL.md",
+    "SEM-6/TL-SEM/TL_sem.md",
+    "SEM-6/DMBI-SEM",
+    "SEM-6/cat-1/DMBI.md",
+    "Recording 20260413081044.m4a",
+    "SEM-6/cat-1/IOT.md",
+    "SEM-6/cat-1/Transfer Learning.md",
+    "Unit-II Chapter 6.pptx.pdf",
+    "Unit-I Chapter 5 (1).pptx.pdf",
+    "Unit-I chapter 4 (1).pptx.pdf",
+    "My Tasks.md",
     "INTERVIEW/rapid data.md",
+    "SEM-6/TL-SEM",
+    "SEM-6/cat-3/TL.md",
+    "mentoroid/mentoroid.md",
+    "Mentoroid.md",
+    "INTERVIEW/DBMS/Intro to dbms.md",
     "Untitled 1.md",
     "RAG/Pipeline.excalidraw.md",
-    "SEM-6/cat-3/TL.md",
     "INTERVIEW/Untitled.md",
     "SEM-6/cat-3/IOT.md",
     "Untitled.md",
     "IOT.md",
-    "WhatsApp Image 2026-01-07 at 7.49.23 PM.jpeg",
     "Untitled.canvas",
-    "INTERVIEW/JAVA roadmap.md",
-    "SEM-6/cat-3/DMBI.md",
-    "SEM-6/cat-1/DMBI.md",
-    "SEM-6/cat-1/TT.md",
-    "SEM-6/cat-1/Transfer Learning.md",
-    "SEM-6/cat-1/IOT.md",
-    "INTERVIEW/DBMS/QUERIES.md",
-    "Leet Code/DSA Problem Tracker.md",
-    "Leet Code/DSA Problem notes.md",
-    "Mr_cooper.md",
-    "INTERVIEW/DBMS/DBMS.md",
-    "INTERVIEW/OS.md",
-    "Pasted image 20260314134927.png",
-    "Pasted image 20260314134906.png",
-    "Pasted image 20260314134845.png",
-    "Pasted image 20260314134817.png",
-    "SEM-6/cat-2/TL.md",
     "SEM-6/cat-3",
-    "INTERVIEW/soliton.md",
-    "Pasted image 20260310050518.png",
     "INTERVIEW/DBMS",
     "Untitled",
     "mentoroid-315b1-firebase-adminsdk-fbsvc-2a4082a007.json",
-    "HANDS ON TRANSFER LEARNING WITH OYTHON-TEXT BOOK.pdf",
-    "III AIDS AIML cat1 timetable.pdf",
-    "III AIDS AIML cat1 timetable 1.pdf",
     "Mentoroid Work Flow.canvas",
-    "Pasted image 20251208210331.png",
-    "Pasted image 20251208200958.png",
-    "Pasted image 20260222221144.png",
-    "Pasted image 20260222230235.png",
-    "Recording 20260114133927.m4a",
-    "Recording 20260114133942.m4a",
-    "Rolldown Vite.canvas",
-    "Transfer Learning Syllabus.pdf"
+    "Rolldown Vite.canvas"
   ]
 }
